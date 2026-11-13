@@ -7,10 +7,10 @@ day = int(input("Enter day: "))
 
 event_date = date(year, month, day)
 
-print("\nFormatted Output:")
-print("Event: ", event_title)
-print("Date: " , event_date)
-print("Year: " , year)
-print("Month: " , event_date.strftime("%B"))
-print("Day: " , day)
-print("Weekday:", event_date.strftime("%A"))
+print("Event: ",event_title)
+print("Date: " ,event_date)
+print("Year: " ,year)
+print("Month: " ,event_date.strftime("%B"))
+print("Day: " ,day)
+print("Weekday:",event_date.strftime("%A"))
+#This is the simple output without propper formmat
